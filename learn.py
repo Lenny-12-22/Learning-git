@@ -11,10 +11,10 @@ def timer(hours,minutes,seconds):
 
         timer = '{:02d}:{:02d}:{:02d}'.format(hours, minutes,seconds)
 
-        print (timer, end='/r')
+        print (timer, end='\r')
         time.sleep(1)
 
-        totalTime =-1
+        totalTime -=1
     print('Timer Completed')
 
 
